@@ -1,0 +1,97 @@
+/*==css reset==*/
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+/*==css general==*/
+body{
+   font-family: "Kanit", sans-serif;
+   background-color: rgb(245, 247, 249);
+}
+/*----utility----*/
+.btn{
+   padding: 5px 10px;
+   border: none;
+   border-radius: 5px;
+   background-color: rgb(67, 173, 249);
+   color: #fff;
+}
+.btn-white{
+   background-color: #fff;
+   border: 1px solid lightgray;
+   color: lightgray;
+}
+
+.high-blu{
+   background-color: rgb(67, 173, 249);
+}
+.high-purple{
+   background-color: rgb(142, 106, 222);
+}
+.high-watergreen{
+   background-color: rgb(95, 185, 163);
+}
+.high-lightgreen{
+   background-color: rgb(170, 197, 54);
+}
+.high-orange{
+   background-color: rgb(227, 151, 61);
+}
+.high-pink{
+   background-color: rgb(212, 89, 140);
+}
+
+.section-container{
+   background-color: #fff;
+   max-width: 800px;
+   margin: 0 auto;
+   margin-top: 40px;
+}
+
+/*=====header style=====*/
+header{
+   background-color: #fff;
+}
+.logo{
+   display: inline-flex;
+   margin: 10px;
+}
+.logo img{
+   display: inline-block;
+   vertical-align: middle;
+   padding-right: 5px;
+}
+.logo h1{
+   font-weight: 500;
+   display: inline-block;
+}
+
+
+/*=====main style=====*/
+/*----first section style----*/
+.content{
+   padding-top: 10px;
+   padding-left: 50px;
+   padding-bottom: 30px;
+}
+.buttons{
+   margin-bottom: 30px;
+}
+
+.list p{
+   font-weight: 600;
+   font-size: 1.2rem;
+}
+.list ul li{
+   list-style: none;
+   font-weight: 300;
+   padding: 10px 0px;
+}
+.list span.highlighted{
+   font-size: 0.7rem;
+   padding: 1px 10px;
+   color: #fff;
+   border-radius: 20px;
+}
