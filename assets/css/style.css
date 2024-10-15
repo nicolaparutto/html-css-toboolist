@@ -84,6 +84,24 @@ header{
    font-weight: 300;
    padding: 10px 0px;
 }
+li.check::before{
+   content: '\2713';
+   font-size: 12px;
+   padding: 1px 5px;
+   border: 1px solid green;
+   border-radius: 100%;
+   color: green;
+   margin-right: 5px;
+}
+li.cross::before{
+   content: '\0058';
+   font-size: 12px;
+   padding: 1px 5px;
+   border: 1px solid red;
+   border-radius: 100%;
+   color: red;
+   margin-right: 5px;
+}
 .list span.highlighted{
    font-size: 0.7rem;
    padding: 1px 10px;
