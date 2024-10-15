@@ -68,7 +68,7 @@ header{
 }
 
 /*=====main style=====*/
-/*----first section style----*/
+/*----section style----*/
 .content{
    padding: 15px 50px 30px;
 }
@@ -78,6 +78,10 @@ header{
 .list p{
    font-weight: 600;
    font-size: 1.2rem;
+}
+.title-list::before{
+   content: '\25BE';
+   padding-right: 5px;
 }
 .list ul li{
    list-style: none;
