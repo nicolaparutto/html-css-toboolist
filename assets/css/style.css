@@ -89,10 +89,21 @@ header{
    font-weight: 300;
    padding: 10px 0px;
 }
-
 .list span.highlighted{
    font-size: 0.7rem;
    padding: 1px 10px;
    color: #fff;
    border-radius: 20px;
+}
+
+/*=====footer style=====*/
+footer{
+   text-align: center;
+}
+footer p{
+   margin: 40px 0px;
+   padding: 50px;
+   color: #fff;
+   background-color: #393939;
+   font-weight: 300;
 }
