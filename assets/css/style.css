@@ -23,7 +23,13 @@ body{
    border: 1px solid lightgray;
    color: lightgray;
 }
-
+.section-container{
+   background-color: #fff;
+   max-width: 800px;
+   margin: 0 auto;
+   margin-top: 40px;
+}
+/*----span colors----*/
 .high-blu{
    background-color: rgb(67, 173, 249);
 }
@@ -41,13 +47,6 @@ body{
 }
 .high-pink{
    background-color: rgb(212, 89, 140);
-}
-
-.section-container{
-   background-color: #fff;
-   max-width: 800px;
-   margin: 0 auto;
-   margin-top: 40px;
 }
 
 /*=====header style=====*/
@@ -68,18 +67,14 @@ header{
    display: inline-block;
 }
 
-
 /*=====main style=====*/
 /*----first section style----*/
 .content{
-   padding-top: 10px;
-   padding-left: 50px;
-   padding-bottom: 30px;
+   padding: 15px 50px 30px;
 }
 .buttons{
    margin-bottom: 30px;
 }
-
 .list p{
    font-weight: 600;
    font-size: 1.2rem;
